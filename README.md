@@ -6,19 +6,19 @@ The four algorithms visualized are: bubble sort, heap sort, merge sort, and last
 
 The four algorithms are different in efficiency but the clock rates are calibrated so that they appear to reach a sorted array in roughly the same amount of time for better viewing pleasure. At the same time, the advantage of the latter two algorithms should be easily noticeable.
 
-Bubble sort is a simple process of repeatedly going through the array and compare the two adjacent elements, and switching them if they're in the wrong order, i.e. the left element is greater than the right element. It's not particularly efficient on a large scale but is nevertheless fun to watch.
+<b>Bubble sort</b> is a simple process of repeatedly going through the array and compare the two adjacent elements, and switching them if they're in the wrong order, i.e. the left element is greater than the right element. It's not particularly efficient on a large scale but is nevertheless fun to watch.
 
 ![](https://github.com/tianxiaozhang1/sorting/blob/main/bubble.gif)
 
-Heapsort is essentially two steps. One is to build a heap in the form of a binary tree. Two is to constantly remove the largest number element and adding it to the array. The heap is updated from each removal.
+<b>Heapsort</b> is essentially two steps. One is to build a heap in the form of a binary tree. Two is to constantly remove the largest number element and adding it to the array. The heap is updated from each removal.
 
 ![](https://github.com/tianxiaozhang1/sorting/blob/main/heap.gif)
 
-Mergesort is a divide-and-conquer algorithm, invented by (THE) John von Neumann in 1945. It divides the sequence in half until the two halves are both one element in length. Sublists are then merged back together to produce a longer list until there's only one sublist left (with the same length as the original array), which is sorted.
+<b>Merge sort</b> is a divide-and-conquer algorithm, invented by (THE) John von Neumann in 1945. It divides the sequence in half until the two halves are both one element in length. Sublists are then merged back together to produce a longer list until there's only one sublist left (with the same length as the original array), which is sorted.
 
 ![](https://github.com/tianxiaozhang1/sorting/blob/main/merge.gif)
 
-Quicksort is another divide-and-conquer algorithm, invented by Tony Hoare in 1959. An arbitrary element is selected (initial element in this case) and all remaining elements in the current array are compared to it, and the ones smaller will be moved to its left and the ones greater will remain on the right. The initial element is now a pivot and its position in the final sequence is known since everything smaller than it is to its left, and all greater elements on the right. The array is then divided into two with the pivot removed in the middle. The process continues until the entire original array is finished.
+<b>Quicksort</b> is another divide-and-conquer algorithm, invented by Tony Hoare in 1959. An arbitrary element is selected (initial element in this case) and all remaining elements in the current array are compared to it, and the ones smaller will be moved to its left and the ones greater will remain on the right. The initial element is now a pivot and its position in the final sequence is known since everything smaller than it is to its left, and all greater elements on the right. The array is then divided into two with the pivot removed in the middle. The process continues until the entire original array is finished.
 
 ![](https://github.com/tianxiaozhang1/sorting/blob/main/quick.gif)
 
