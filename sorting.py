@@ -149,8 +149,8 @@ def bubble_sort(cur_array):
 
         #NB The four algorithms are different in efficiency but the clock rates are calibrated
         #so that they appear to reach a sorted array in roughly the same amound of time for
-        #better human viewing pleasure. At the same time, the efficiency of the latter two 
-        #algorithms should be easily noticeable.
+        #better viewing pleasure. At the same time, the efficiency of the latter two algorithms
+        #should be easily noticeable.
 
         tl += 1
         
@@ -329,7 +329,7 @@ def heap_sort(cur_array):
 
 def merge_sort(cur_array, length, pro_array, res_array, workingon_array):
 
-    #Mergesort is a divide and conquer algorithm, invented by (THE) John von Neumann in 1945.
+    #Mergesort is a divide-and-conquer algorithm, invented by (THE) John von Neumann in 1945.
     #It divides the sequence in half until the two halves are both one element in length.
     #Sublists are then merged back together to produce a longer list until there's only
     #one sublist left (with the same length as the original array), which is sorted.
@@ -480,9 +480,9 @@ def quick_sort(cur_array, o_length, pro_array, pivot_list, cur_pro_array, cur_pa
 
     #Quicksort is another divide-and-conquer algorithm, invented by Tony Hoare in 1959.
     #An arbitrary element is selected (initial element in this case) and all remaining elements
-    #in the current array are compared to it, and the once smaller will be moved to its left and
-    #the ones greater will remain on the left. The initial element is now a pivot and its position
-    #in the final sequence is now known since everything smaller than it is to its left, and all
+    #in the current array are compared to it, and the ones smaller will be moved to its left and
+    #the ones greater will remain on the right. The initial element is now a pivot and its position
+    #in the final sequence is known since everything smaller than it is to its left, and all
     #greater elements on the right. The array is then divided into two with the pivot removed in
     #the middle. The process continues until the entire original array is finished.
 
