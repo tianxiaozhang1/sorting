@@ -4,7 +4,7 @@ Welcome to my sorting exercise.
 
 The four algorithms visualized are: bubble sort, heap sort, merge sort, and last but possibly the least (time required), quicksort.
 
-The four algorithms are different in efficiency but the clock rates are calibrated so that they appear to reach a sorted array in roughly the same amound of time for better viewing pleasure. At the same time, the efficiency of the latter two algorithms should be easily noticeable.
+The four algorithms are different in efficiency but the clock rates are calibrated so that they appear to reach a sorted array in roughly the same amount of time for better viewing pleasure. At the same time, the advantage of the latter two algorithms should be easily noticeable.
 
 Bubble sort is a simple process of repeatedly going through the array and compare the two adjacent elements, and switching them if they're in the wrong order, i.e. the left element is greater than the right element. It's not particularly efficient on a large scale but is nevertheless fun to watch.
 
